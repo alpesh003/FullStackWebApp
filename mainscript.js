@@ -40,3 +40,16 @@ if (falsyVar) {
 } else {
   console.log("Falsy values check");
 }
+
+// Ternary operator
+
+const factInfo = votesInteresting > votesNotIntersting ? true : false;
+
+// Working with template strings/Literals
+const currentFact = "Lisbon is the capital of Portugal!";
+const currentFactUpperCase = currentFact.toUpperCase();
+
+const templateStr = `The current fact is "${currentFactUpperCase}". The current fact's age is ${calcFactAge(
+  2015
+)}. It is probably ${factInfo}`;
+console.log(templateStr);
